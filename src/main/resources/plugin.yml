@@ -1,0 +1,12 @@
+name: DiamondFinding
+version: '${project.version}'
+main: com.diamondfinding.DiamondPlugin
+api-version: '1.21'
+description: Diamond finding game plugin with overlay
+author: mabel
+
+commands:
+  mbdm:
+    description: Diamond Finding main command
+    usage: /mbdm <subcommand> [args]
+    aliases: [diamond]

@@ -1,0 +1,24 @@
+# DiamondFinding Configuration
+
+# Goal: how many diamonds to win
+goal: 1000
+
+# Overlay web server port (for OBS Browser Source)
+overlay-port: 6970
+
+# Scan settings
+scan:
+  radius: 30
+  duration-seconds: 10
+
+# Surround settings
+surround:
+  radius: 75
+  duration-seconds: 5
+
+# Countdown when diamonds reach goal (seconds)
+countdown-seconds: 60
+
+# mabel-tracker integration (leave tracker-url empty to disable)
+tracker-url: "https://mabeltracker.up.railway.app"
+server-name: "DiamondFinding Server"
